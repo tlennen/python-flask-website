@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 # customary to name after page name
 def index():
-    return "This is the home page "
+    return "This is the test for css and html "
 
 @app.route('/profile/<name>')
 def profile(name):
